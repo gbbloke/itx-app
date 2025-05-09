@@ -14,7 +14,7 @@ Este es un proyecto de una aplicación web de móviles desarrollada con React y 
 1.  **Clona el repositorio:**
 
     ```bash
-    git clone <URL_DEL_REPOSITORIO_REMOTO>
+    git clone https://github.com/gbbloke/itx-app.git
     cd itx-app
     ```
 
@@ -53,4 +53,4 @@ En el `package.json` encontrarás los siguientes scripts:
 ## Autor
 
 David Fernández
-Tu GitHub (opcional)
+https://github.com/gbbloke
