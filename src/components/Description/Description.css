@@ -1,0 +1,25 @@
+.product-description {
+  padding: 20px;
+  background-color: var(--color-light-gray);
+  border-radius: 8px;
+}
+
+.product-description h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.product-description ul {
+  list-style: none;
+  padding: 0;
+}
+
+.product-description li {
+  margin-bottom: 8px;
+}

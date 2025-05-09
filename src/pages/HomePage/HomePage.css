@@ -1,0 +1,46 @@
+.home-page {
+  padding: 20px;
+}
+
+.search-bar-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.loading-message {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  color: var(--color-secondary);
+}
+
+.error-message {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  color: red;
+}
+
+.scroll-top-button {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.scroll-top-button:hover {
+  background-color: var(--color-accent);
+}

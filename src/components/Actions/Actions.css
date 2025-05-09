@@ -1,0 +1,53 @@
+.product-actions {
+  padding: 20px;
+  background-color: var(--color-light-gray);
+  border-radius: 8px;
+}
+
+.color-selector,
+.storage-selector {
+  margin-bottom: 15px;
+}
+
+.color-selector label,
+.storage-selector label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.color-selector select,
+.storage-selector select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--color-secondary);
+  border-radius: 4px;
+  appearance: none;
+  background-color: var(--color-background);
+}
+
+.product-actions button {
+  background-color: #fff;
+  color: #222;
+  padding: 10px 20px;
+  border: 1px solid #222;
+  border-radius: 0;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+  outline: none;
+}
+
+.product-actions button:hover {
+  background-color: #222;
+  color: #fff;
+}
+
+.product-actions p {
+  margin-top: 10px;
+  color: var(--color-secondary);
+}
