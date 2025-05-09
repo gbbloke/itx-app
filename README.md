@@ -53,4 +53,4 @@ En el `package.json` encontrarás los siguientes scripts:
 ## Autor
 
 David Fernández
-Tu GitHub (opcional)
+https://github.com/gbbloke
